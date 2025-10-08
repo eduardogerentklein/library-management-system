@@ -24,6 +24,7 @@ The project follows Clean Architecture and SOLID principles:
 - Dependency Injection is used to wire services and repositories in Program.cs
 
 ## Getting Started
+
 ### Prerequisites
 
 - .NET 8 SDK
@@ -39,15 +40,17 @@ cd library-management-system
 ```
 
 #### Restore dependencies:
+
 ```bash
 dotnet restore
 ```
 
 ### Running the Application
+
 Run the console app:
 
 ```bash
-dotnet run --project ./LibraryManagementSystem/ConsoleApp
+dotnet run --project ./ConsoleApp
 ```
 
 ## Testing
@@ -55,6 +58,7 @@ dotnet run --project ./LibraryManagementSystem/ConsoleApp
 Unit tests are provided for both BookService and BookRepository:
 
 Run all tests:
+
 ```bash
 dotnet test
 ```
