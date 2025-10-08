@@ -35,7 +35,7 @@ The project follows Clean Architecture and SOLID principles:
 
 ```bash
 git clone git@github.com:eduardogerentklein/library-management-system.git
-cd library-management-console
+cd library-management-system
 ```
 
 #### Restore dependencies:
@@ -47,7 +47,7 @@ dotnet restore
 Run the console app:
 
 ```bash
-dotnet run --project src/LibraryManagement.ConsoleApp
+dotnet run --project ./LibraryManagementSystem/ConsoleApp
 ```
 
 ## Testing
